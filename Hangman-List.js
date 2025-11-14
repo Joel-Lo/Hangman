@@ -328,7 +328,7 @@ const wordList =  [
         hint: "Uses a secure encrypted tunnel from a mobile computer and securely connect back to the organisation network"
     },
     {
-        word: "Antimalware"
+        word: "Antimalware",
         hint: "Use signatures or behavioral analysis of applications to identify and block malicious code from being executed"
     },
     {
