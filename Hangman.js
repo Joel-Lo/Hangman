@@ -79,23 +79,6 @@ for (let i = 97; i <= 122; i++) {
     button.addEventListener("click", (e) => initGame(e.target, String.fromCharCode(i)));
 }
 
-const spaceButton = document.createElement("button");
-spaceButton.innerText = "Space";
-keyboardDiv.appendChild(spaceButton);
-
-spaceButton.addEventListener("click", (e) => {
-    wrongGuessCount++;
-    hangmanImage.src = `hangman-${wrongGuessCount}.svg`;
-    e.target.disabled = true;
-    guessesText.innerText = `${wrongGuessCount} / ${maxGuesses}`;
-
-    wordDisplay.querySelectorAll(".space-separator").forEach(spaceEl => {
-        spaceEl.classList.add("space-pressed");
-    });
-
-    if(wrongGuessCount === maxGuesses) return gameOver(false);
-    if(correctLetters.length === currentWord.toLowerCase().length) return gameOver(true);
-});
 
 Swal.fire({
     title: 'Welcome!',
