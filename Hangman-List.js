@@ -193,7 +193,7 @@ const wordList =  [
     },
     {
         word: "Man in the mobile",
-        hint: "Used to take control of a user's mobile device to exfiltrate user-sensitive information to send to attackers"
+        hint: "Used to take control of a user's mobile device to exfiltrate user sensitive information to send to attackers"
     },
     {
         word: "Advanced persistent threats",
@@ -224,7 +224,7 @@ const wordList =  [
         hint: "A software vulnerability where data is written beyond the limits of the memory areas allocated to an application"
     },
     {
-        word: "Non-validated input",
+        word: "Non validated input",
         hint: "A software vulnerability where programs require a data input which can contain malicious content so it behave in an unintended way"
     },
     {
